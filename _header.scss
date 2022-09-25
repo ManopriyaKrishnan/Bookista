@@ -1,0 +1,110 @@
+
+.header{
+  // font-family: 'Inter', sans-serif;
+    display:flex;
+    color: #fffefe;
+    background-color: #3B2F4A;
+    &__content{
+        width: 50vw;
+        float: left;
+        padding: 110px;
+        &--title{
+            font-size: xx-large;
+        }
+        &--para{
+            font-size: small;
+            padding: 10px 0px 50px;
+        }
+        &--con2{
+            display: flex;
+            &--collections{
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: 2fr 1fr;
+                // border: 1px solid;
+                height: 50px;
+                width: 115px;
+                &--img{
+                  // border: 1px solid;
+                  width: 31px;
+                }
+                &--num{
+                  // border: 1px solid;
+                  margin-top: 17px;
+                  margin-left: 2px;
+                }
+                &--con{
+                  // border: 1px solid;
+                  font-size: smaller;
+                  grid-column-start: 1;
+                  grid-column-end: 3;
+                  margin: 0px;
+                  position: relative;
+                  top: -17px;
+                }
+
+            }
+            &--customers{
+                  display: grid;
+                  grid-template-columns: 1fr 2fr;
+                  grid-template-rows: 2fr 1fr;
+                  height: 50px;
+                  width: 100px;
+                  padding-left: 10px;
+                  // border: 1px solid;
+                &--icon{
+                  width: 31px;
+                  padding-top: 14px;
+                }
+                &--num{
+                            // border: 1px solid;
+                  margin-top: 17px;
+                  margin-left: 2px;
+                }
+                &--con{
+                  // border: 1px solid;
+                  font-size: smaller;
+                  grid-column-start: 1;
+                  grid-column-end: 3;
+                  margin: 0px;
+                  position: relative;
+                  top: -17px;
+                }
+
+            }
+
+          }
+      
+        &--button{
+            margin-top: 50px;
+            background-color: #D9176D;
+            border-radius: 7px;
+            padding: 10px;
+            color: #ffffff;
+            border: none;
+            height: 49px;
+            width: 216px;
+
+           .header__content--button--text{
+              position: relative;
+              bottom: 18px;
+           }
+           .header__arrow-icon{
+            position: relative;
+              top: 7px;
+              left: 10px;
+          }
+        }
+
+      }
+  
+      &__img{
+        width: 50vw;
+        height: 100%;
+       }
+      }
+
+
+             
+
+

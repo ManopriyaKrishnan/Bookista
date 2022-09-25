@@ -1,0 +1,125 @@
+
+.bold{
+  font-weight:bolder;
+}
+// home-page
+.home-page{
+    border-radius: 5px;
+    background-color: $primary-color-dark;
+    width: 100%;
+    // height: 100px;
+    border: 1px solid;
+    font-family: 'Poppins', sans-serif;
+}
+// nav-bar
+.navbar{
+    background-color: $complimentary-color-white;
+    color: $primary-color-dark; 
+    margin: 30px;
+    // font-family: 'Poppins', sans-serif;
+    // height: 100px;
+    // padding: 5px 30px;
+    border-radius: 10px;
+    border: 1px solid;
+    @include flex;
+    height: 104px;
+    &__logo{
+        @include flex;
+        padding-right: 42px;
+        padding-left: 36px;
+        &--img{
+           width: 90px;
+           height: 90px; 
+           padding-left: 30px;
+        }
+        &--con{
+          margin-top: 30px;
+          line-height: 20px;
+        }
+        &--content1{
+            font-size: x-large;
+            font-weight: bold;
+        }
+        &--content2{
+            font-size: x-large;
+            font-weight: bold;
+            color: $yellow-color-dark;
+        }
+        &--para{
+            font-size: small;
+        }
+    }
+    &__menusearch{
+        margin: 28px 15px;
+        @include flex;
+        background-color: #f3efef;
+        &--menu{
+          @include flex;
+          &--icon{
+            color: $yellow-color-dark;
+            padding: 10px;
+          }
+          &--dropdown{
+            height: fit-content;
+            background-color: #f3efef;
+            margin-top: 14px;
+            border: none;
+            width: 63px;
+          }
+        }
+        &--search{
+            background-color:#f3efef;
+            width: 24rem;
+            height: 2rem;
+            border: none;
+            position: relative;
+            bottom: 7px;
+            padding-left: 32px;
+            &--icon{
+              padding: 10px;
+              background-color:#f3efef;
+              border:none;
+            }
+        }
+
+    }
+    &__hearticon{
+        padding: 10px;
+        position: relative;
+        top:30px;
+    }
+    &__carticon{
+        padding: 10px;
+        position: relative;
+        top:30px;
+    }
+    &__login{
+        // padding: 10px 30px 10px 10px;
+        margin: 20px 0px 10px 10px;
+        // border: 1px solid;
+        height: 70px;
+        width: 267px;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 10px;
+        &--image{
+          grid-row: 1/span 2;
+          height: 72px;
+          width: 60px;
+        }
+        &--id{
+          grid-column: 2/3;
+          grid-row: 1/2;
+          margin: 0px;
+          margin-top: 10px;
+        }
+        &--mailid{
+          grid-row: 2/5;
+          grid-column: 2/3;
+          margin: 0px;
+        }
+    }
+  }
+
+

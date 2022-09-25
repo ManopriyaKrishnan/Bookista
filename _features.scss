@@ -1,0 +1,40 @@
+.features{
+    background-color: $secondary-color-subtle;
+    color: $primary-color-dark;
+    display: flex;
+    flex: 1;
+    padding: 14px 52px;
+    padding-bottom: 0px;
+    &__delivery{
+        width: 25vw;
+        padding: 30px;
+        padding-bottom: 0px;
+        &-icon{
+           font-size: xx-large;
+        }
+    }
+    &__payment{
+        width: 25vw;
+        padding: 30px;
+        padding-bottom: 0px;
+        &-icon{
+            font-size: xx-large;
+        }
+    }
+    &__quality{
+        width: 25vw;
+        padding: 30px;
+        padding-bottom: 0px;
+        &-icon{
+            font-size: xx-large;
+        }
+    }
+    &__guarantee{
+        width: 25vw;
+        padding: 30px;
+        padding-bottom: 0px;
+        &-icon{
+            font-size: xx-large;
+        }
+    }
+}

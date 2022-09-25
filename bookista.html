@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookista</title>
+
+                         <!-- Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@200;700&display=swap" rel="stylesheet">
+
+                         <!-- Icons -->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- Linking Style Sheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="home-page">
+  <div class="navbar">
+
+
+    <!-------------- Navigation Bar --------->
+
+
+        <div class="navbar__logo">
+              <img src="logo-img.png" alt="bookista-logo" class="navbar__logo--img">
+              <div class="navbar__logo--con">
+                <span class="navbar__logo--content1">BOOK</span>
+                <span class="navbar__logo--content2">ISTA</span>
+                <br>
+                <span class="navbar__logo--para">The Online Book Store</span>
+              </div>
+        </div>
+
+
+    <!-- Menu and search bar -->
+
+
+    <div class="navbar__menusearch">
+        <div class="navbar__menusearch--menu">
+            <span class="material-symbols-outlined navbar__menusearch--menu--icon">
+              widgets
+            </span>
+            <select name="menu" class="navbar__menusearch--menu--dropdown">
+              <option value="#">Menu</option>
+              <option value="Books">Books</option>
+              <option value="Magazines">Magazines</option>
+              <option value="TextBooks">TextBooks</option>
+              <option value="AudioBooks">AudioBooks</option>
+              <option value="Books for sale">Books for sale</option>
+            </select>
+        </div>
+        <div >
+          <form action="#">
+            <input type="text" placeholder="Search books here" class="navbar__menusearch--search">
+            <button type="submit" class="navbar__menusearch--search--icon"><span class="material-symbols-outlined">
+              search
+            </span></button>
+          </form>
+          
+        </div>
+    </div>
+        <!-- heart icon -->
+        <span class="material-symbols-outlined navbar__hearticon">
+          favorite
+        </span>
+        <!-- cart icon -->
+        <span class="material-symbols-outlined navbar__carticon">
+          shopping_cart
+        </span>
+        <div class="navbar__login">
+            <img src="mano.jpg" alt="login-image" class="navbar__login--image">
+            <h4 class="navbar__login--id">Mano</h4>
+            <p class="navbar__login--mailid">mano1111@gmail.com</p>
+        </div>
+  </div>
+
+
+  <!---------------- Main Header ------------->
+
+
+  <div class="header">
+        <div class="header__content">
+            <div class="header__content--title">Welcome to <span class="bold">Bookista</span><br> Online Book Store</div>
+            <p class="header__content--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsa modi expedita quisquam eveniet eligendi quis quod quam iusto voluptas?</p>
+            <div class="header__content--con2">
+                <div class="header__content--con2--collections">
+                    <img src="book.png" alt="book-image" class="header__content--con2--collections--img">
+                    <h4 class="header__content--con2--collections--num">59+k</h4>
+                    <p class="header__content--con2--collections--con">Book Collections</p>
+                </div>
+                <div class="header__content--con2--customers">
+                    <span class="material-symbols-outlined header__content--con2--customers--icon">
+                      groups
+                    </span>
+                    <h4 class="header__content--con2--customers--num">19,634</h4>
+                    <p class="header__content--con2--customers--con">Customers</p>
+                </div>
+            </div>  
+            <button class="header__content--button">
+              <p class="header__content--button--text">Go to Collections &nbsp &nbsp  <span class="material-symbols-outlined header__arrow-icon">
+                arrow_right_alt
+              </span></p>
+              
+            </button>
+        </div>
+        <div class="header__img">
+          <img src="header-img.png" alt="header-image">
+        </div>
+  </div>
+
+  <!-- -----------------Features-------------- -->
+
+  <div class="features">
+      <div class="features__delivery">
+        <span class="material-symbols-outlined features__delivery-icon">
+          schedule
+        </span>
+        <h4>Quick Delivery</h4>
+        <p  class="header__content--para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae dolore quasi qui eius! Maxime amet perferendis ex, eos exercitationem nihil.</p>
+      </div>
+      <div class="features__payment">
+        <span class="material-symbols-outlined features__payment-icon">
+          credit_score
+        </span>
+        <h4>Secure Payment</h4>
+        <p  class="header__content--para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae dolore quasi qui eius! Maxime amet perferendis ex, eos exercitationem nihil.</p>
+      </div>
+      <div class="features__quality">
+        <span class="material-symbols-outlined features__quality-icon">
+          workspace_premium
+        </span>
+        <h4>Best Quality</h4>
+        <p  class="header__content--para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae dolore quasi qui eius! Maxime amet perferendis ex, eos exercitationem nihil.</p>
+      </div>
+      <div class="features__guarantee">
+        <span class="material-symbols-outlined features__guarantee-icon">
+          shield
+        </span>
+        <h4>Return Guarantee</h4>
+        <p class="header__content--para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae dolore quasi qui eius! Maxime amet perferendis ex, eos exercitationem nihil.</p>
+      </div>
+  </div>
+
+  <!------------------ Trending page---------------- -->
+
+
+  <div class="trending">
+    <!-- <div class="trending__container1">
+        <h4>Trending this week</h4>
+        <p class="header__content--para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae dolore quasi qui eius! Maxime amet perferendis ex, eos exercitationem nihil.</p>
+    </div> -->
+    <!-- <div class="trending__container2"> -->
+        <div class=trending__icon1>
+          <span class="material-symbols-outlined">
+          arrow_back
+          </span>
+        </div>
+        
+        <img src="book1.png" class=trending__book1>
+        <img src="book4.png" class=trending__book2>
+        <img src="book3.png" class=trending__book3>
+        <img src="book2.png" class=trending__book4>
+        <img src="book5.png" class=trending__book5>
+      
+        <div class=trending__icon2>
+          <span class="material-symbols-outlined">
+          arrow_forward
+          </span>
+        </div>
+        <img src="don-norman.png" class="trending__icon3">
+    </div>
+    <!-- <div class="trending__container3">
+        <h5 class="trending__author">Don Norman</h5>
+        <div class="trending__star">
+          <span class="material-symbols-outlined">
+            grade
+          </span>
+    </div> -->
+    <!-- </div> -->
+  
+  </div>
+  </div>
+</body>
+</html>

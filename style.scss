@@ -1,0 +1,26 @@
+// primary colors 
+$primary-color-dark:  #3B2F4A;
+$primary-color-light:  #6A5C7C;
+$primary-color-subtle:  #9280A8;
+// seconday colors
+$secondary-color-dark:  #D9176D;
+$secondary-color-light:  #FF70AF;
+$secondary-color-subtle:  #fef4f8;
+// indian yellow
+$yellow-color-dark:  #EAA451;
+$yellow-color-light:  #FFC785;
+$yellow-color-subtle:  #FFE0BA;
+// complimentary colors
+$complimentary-color-dark:  #000000;
+$complimentary-color-light:  #A4A4A4;
+$complimentary-color-subtle:  #C4C4C4;
+$complimentary-color-white:#FFFFFF;
+@mixin flex {
+  display: flex;
+}
+// Importing SCSS file
+
+@import "./header";
+@import "./navbar";
+@import "./features";
+@import "./trending"
